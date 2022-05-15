@@ -1,0 +1,26 @@
+{
+  "name": "darkfire",
+  "version": "1.0.0",
+  "description": "stealth ninja, jumping obstacles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "tsc",
+    "preview": "vite preview --port 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesuscabrita/Darkfire.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesuscabrita/Darkfire/issues"
+  },
+  "homepage": "https://github.com/jesuscabrita/Darkfire#readme",
+  "dependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^2.9.9"
+  }
+}
