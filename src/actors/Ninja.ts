@@ -40,10 +40,18 @@ export class Ninja extends Actor {
   // add delta to update
   update(delta: number) {
     let newPosX = this.origin.x + this.speed.x * delta;
-
     if (newPosX <= 1024 - this.ninjaSize && newPosX >= this.ninjaSize) {
       this.origin.x = newPosX;
     }
+    // let newPosY = this.origin.y / this.speed.y * delta;
+    // if (newPosY <= 1024 - this.ninjaSize && newPosY >= this.ninjaSize) {
+    //   this.origin.y = newPosY;
+    // }
+    // if (newPosY >= this.origin.y){
+    //   this.origin.y= 800
+    // }
+
+
     this.timer += delta;
 
     if (this.timer >= 0.1) {
@@ -61,7 +69,7 @@ export class Ninja extends Actor {
     if (this.speed.x != 0 && this.speed.x < 0) {
       direction = 180;
     }
-
+    
     ctx.translate(origin.x, origin.y);
 
     ctx.drawImage(

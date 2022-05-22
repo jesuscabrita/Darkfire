@@ -1,5 +1,5 @@
-import { Ninja } from "./actors/Ninja";
 import { Map } from "./actors/Map";
+import { Ninja } from "./actors/Ninja";
 import { FPSViewer } from "./actors/FPSViewer";
 import { Actor } from "./actors/Actor";
 
@@ -8,6 +8,7 @@ window.onload = () => {
   const ctx = canvas.getContext("2d") as CanvasRenderingContext2D;
 
   let actors: Actor[] = [
+    new Map ({x:10, y:10}),
     new FPSViewer({ x: 5, y: 50 }),
     new Ninja({ x: 100, y: 800 }),
   ];
