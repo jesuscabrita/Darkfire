@@ -48,7 +48,16 @@ El reto es desarrollar un proyecto interesante y dinamico, por ello decidí crea
 
 # Tabla de contenidos :clipboard:
 
+# instalación :computer:
 
+paso 1 // instalar 
+`$ npm install` 
+
+paso 2  // inicar paquetes 
+`$ npm init `
+
+paso 3 // levantar servidor 
+`$ npm run dev` 
 
 # License
  
