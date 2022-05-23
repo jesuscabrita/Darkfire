@@ -48,6 +48,14 @@ El reto es desarrollar un proyecto interesante y dinamico, por ello decidí crea
 
 # Tabla de contenidos :clipboard:
 
+* [Estructura del proyecto](#Estructura-del-proyecto)
+* [instalación](#instalacion) 
+* [codigo ejemplo](#codigo-ejemplo) 
+* [Manual de usuario](#Manual-de-usuario)
+* [Dependencies](#Dependencies)
+* [License](#License)
+
+
 # instalación :computer:
 
 paso 1 // instalar 
@@ -58,6 +66,29 @@ paso 2  // inicar paquetes
 
 paso 3 // levantar servidor 
 `$ npm run dev` 
+
+# codigo ejemplo 
+
+![codigo](https://user-images.githubusercontent.com/96850176/169834918-59c2db6d-151a-48a3-a638-71b1a8b4bbda.jpeg)
+
+ calculando el salto y movimiento del jugador 
+ 
+ # Manual de usuario
+ 
+ | accion | tecla |
+| ------------- | ------------- |
+|isquierda  | :arrow_left:  |
+|derecha  | :arrow_right:  |
+| salto  | :arrow_up: |
+
+# Dependencies
+
+* [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project): Version ^2.9.9 
+* [typescript](https://www.typescriptlang.org/): Version ^4.6.4 
+
+# Agradecimientos
+
+lav
 
 # License
  
