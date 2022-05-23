@@ -1,4 +1,4 @@
-# Darkfire :alien:
+# Darkfire :alien::fire:
 
 # tecnologías utilizadas 
 
@@ -10,3 +10,7 @@
 # Imagen Previa
 
 ![demo](https://user-images.githubusercontent.com/96850176/169742802-5183aa88-02d0-4952-a9d1-5a439df4a1f2.jpeg)
+
+# Motivación del proyecto
+
+El reto es desarrollar un proyecto interesante y dinamico, por ello decidí crear un juego al estilio Super Mario Bros, convimiento de salto , adelante atras y otras funcionalidades que puedan recrear una version distinta.
