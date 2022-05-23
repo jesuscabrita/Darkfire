@@ -2,8 +2,9 @@
 
 # tecnologías utilizadas en el proyecto:
 
-* [Node](./src/assets/node.png): Version ^16.13.2 
-* [Vite](https://example.com): Version ^2.9.9
-* [typescript](https://example.com): Version ^4.6.4
+* [Node](https://nodejs.org/es/): Version ^16.13.2 
+* [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project): Version ^2.9.9
+* [typescript](https://www.typescriptlang.org/): Version ^4.6.4
+* [npm](https://www.npmjs.com/): Version ^8.8.0
 
 
