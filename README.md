@@ -1,5 +1,7 @@
 # Darkfire :alien::fire:
 
+### Sun objetivo principal es llegar a la meta, la cual para ello se encuentra con dificultades en el proceso. el fuego y las barreras  son el enemigo que interfiere en tu camino (el fuego al tocar pierdes una vida de las 3 que cuentas )
+
 # tecnologías utilizadas 
 
 * [Node](https://nodejs.org/es/): Version ^16.13.2  
