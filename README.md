@@ -83,6 +83,9 @@ this.position.y += this.velocity.y; // velocidad de salto sin caida
     };
 
 ```
+![codigo](https://user-images.githubusercontent.com/96850176/169859801-f0d7c94b-7e02-417e-a792-d1ca7cbff334.jpeg)
+
+
  calculando el salto y movimiento del jugador 
  
  # Manual de usuario
