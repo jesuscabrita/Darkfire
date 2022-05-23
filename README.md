@@ -52,6 +52,8 @@ El reto es desarrollar un proyecto interesante y dinamico, por ello decidí crea
 * [instalación](#instalacion) 
 * [codigo ejemplo](#codigo-ejemplo) 
 * [Manual de usuario](#Manual-de-usuario)
+* [Dependencies](#Dependencies)
+* [License](#License)
 
 
 # instalación :computer:
