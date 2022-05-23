@@ -87,7 +87,7 @@ this.position.y += this.velocity.y; // velocidad de salto sin caida
  
  | accion | tecla |
 | ------------- | ------------- |
-|isquierda  | :arrow_left:  |
+|izquierda  | :arrow_left:  |
 |derecha  | :arrow_right:  |
 | salto  | :arrow_up: |
 
