@@ -86,6 +86,10 @@ paso 3 // levantar servidor
 * [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project): Version ^2.9.9 
 * [typescript](https://www.typescriptlang.org/): Version ^4.6.4 
 
+# Agradecimientos
+
+lav
+
 # License
  
   [More](./LICENSE)
