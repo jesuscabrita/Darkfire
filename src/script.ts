@@ -2,16 +2,19 @@ import { Map } from "./actors/Map";
 import { Ninja } from "./actors/Ninja";
 import { FPSViewer } from "./actors/FPSViewer";
 import { Actor } from "./actors/Actor";
+import { Platform } from "./actors/Platform";
 
 window.onload = () => {
   const canvas = document.getElementById("canvas") as HTMLCanvasElement;
   const ctx = canvas.getContext("2d") as CanvasRenderingContext2D;
 
   let actors: Actor[] = [
-    new Map ({x:10, y:10}),
+    //new Map({ x: 10, y: 10 }),
     new FPSViewer({ x: 5, y: 50 }),
-    new Ninja({ x: 100, y: 800 }),
+    new Ninja({ x: 30, y: 0 }),
+    new Platform({ x: 200, y: 800 }),
   ];
+
 
   let lastFrame = 0;
   const render = (time: number) => {
@@ -32,16 +35,19 @@ window.onload = () => {
   window.requestAnimationFrame(render);
 
   document.body.addEventListener("keydown", (e) => {
-    // console.log('Keydown', e);
+    // console.log(e.key);
     actors.forEach((actor) => {
-      actor.keyboard_event_down(e.key);
+      if (actor.keyboard_event_down) {
+        actor.keyboard_event_down(e.key);
+      }
     });
   });
-
   document.body.addEventListener("keyup", (e) => {
-    // console.log('keyUp', e);
+    // console.log(e.key);
     actors.forEach((actor) => {
-      actor.keyboard_event_up(e.key);
+      if (actor.keyboard_event_up) {
+        actor.keyboard_event_up(e.key);
+      }
     });
   });
 };
