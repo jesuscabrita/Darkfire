@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+  font-family: 'Indie Flower', cursive;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../src/assets/backgro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#canvas {
+  border: 1px solid red;
+}
+h1{
+  color: white;
+  margin-top: -550px;
+  margin-right: -300px;
+  margin-left: 200px;
+  font-size: 35px
+}
