@@ -1,7 +1,5 @@
 import { Actor } from "./Actor";
 import { Point } from "../types/Point";
-//import { converAngleToRad } from "../utils/angleToRad";
-//import { checkLimits } from "../utils/checkLimits";
 import image from "../assets/map.jpg";
 
 export class Map extends Actor {
@@ -10,13 +8,8 @@ export class Map extends Actor {
   color: string;
   maxSpeed: number;
   speed: Point;
-
-  // IMAGES
   image: HTMLImageElement;
-  sxParameters: number[];
-  timer: number;
-  xFrame: number;
-  yFrame: number;
+  frames:number;
 
   constructor(initialPos: Point, color = "yellow", maxSpeed = 300) {
     super(initialPos);
@@ -27,42 +20,25 @@ export class Map extends Actor {
     this.speed = { x: maxSpeed, y: maxSpeed };
     this.image = new Image();
     this.image.src = image;
-    this.sxParameters = [2, 4, 6, 8, 10,12,14,16,18,20,22,24];
-    this.timer = 0;
-    this.xFrame = 0;
-    this.yFrame = 5;
+    this.frames = 0;
   }
 
   update(delta: number) {
-    let newPosX = this.origin.x + this.speed.x * delta;
-    if (newPosX <= 1024 - this.mapSize && newPosX >= this.mapSize) {
-      this.origin.x = newPosX;
-    }
-
-    this.timer += delta;
-
-    if (this.timer >= 0.1) {
-      this.xFrame = (this.xFrame +1) % 5;
-      this.timer = 0;
-    }
-    /******************** */
+    this.frames++;
+    if (this.frames > 85){
+      this.frames = 0;
+    } 
   }
   draw(delta: number, ctx: CanvasRenderingContext2D) {
     let origin = this.origin;
-
-    let direction = 0;
-    if (this.speed.x != 0 && this.speed.x < 0) {
-      direction = 180;
-    }
-
     ctx.translate(origin.x, origin.y);
 
     ctx.drawImage(
       this.image,
-      38 * this.sxParameters[this.xFrame],
-      29 * this.yFrame,
+      38 ,
+      29 ,
       1380,
-      540,
+      661,
       0,
       0,
       this.mapSize,

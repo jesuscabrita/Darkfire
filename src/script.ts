@@ -9,10 +9,10 @@ window.onload = () => {
   const ctx = canvas.getContext("2d") as CanvasRenderingContext2D;
 
   let actors: Actor[] = [
-    //new Map({ x: 10, y: 10 }),
+    new Map({ x: 10, y: 10 }),
     new FPSViewer({ x: 5, y: 50 }),
     new Ninja({ x: 30, y: 0 }),
-    new Platform({ x: 200, y: 800 }),
+    new Platform({ x: 30, y: 10 }),
   ];
 
 
