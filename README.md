@@ -48,6 +48,12 @@ El reto es desarrollar un proyecto interesante y dinamico, por ello decidí crea
 
 # Tabla de contenidos :clipboard:
 
+* [Estructura del proyecto](#Estructura del proyecto)
+* [instalación](#instalación) 
+* [codigo ejemplo](#codigo ejemplo) 
+* [Manual de usuario](#Manual de usuario)
+
+
 # instalación :computer:
 
 paso 1 // instalar 
@@ -73,6 +79,10 @@ paso 3 // levantar servidor
 |derecha  | :arrow_right:  |
 | salto  | :arrow_up: |
 
+# Dependencies
+
+* [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project): Version ^2.9.9 
+* [typescript](https://www.typescriptlang.org/): Version ^4.6.4 
 
 # License
  
