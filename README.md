@@ -46,7 +46,7 @@ El reto es desarrollar un proyecto interesante y dinamico, por ello decidí crea
 ```
 # play here :video_game:
 
-[Click here](https://nodejs.org/es/](https://jesuscabrita.github.io/Darkfire/)
+[Click here]((https://jesuscabrita.github.io/Darkfire/](https://jesuscabrita.github.io/Darkfire/))
 
 # Tabla de contenidos :clipboard:
 
