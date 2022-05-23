@@ -48,10 +48,10 @@ El reto es desarrollar un proyecto interesante y dinamico, por ello decidí crea
 
 # Tabla de contenidos :clipboard:
 
-* [Estructura del proyecto](Estructura del proyecto)
-* [instalación](instalación) 
-* [codigo ejemplo](codigo ejemplo) 
-* [Manual de usuario](Manual de usuario)
+* [Estructura del proyecto](Estructura-del-proyecto)
+* [instalación](instalacion) 
+* [codigo ejemplo](codigo-ejemplo) 
+* [Manual de usuario](Manual-de-usuario)
 
 
 # instalación :computer:
