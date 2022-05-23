@@ -70,9 +70,17 @@ paso 3 // levantar servidor
 `$ npm run dev` 
 
 # codigo ejemplo 
+```
+this.position.y += this.velocity.y; // velocidad de salto sin caida
+    this.position.x += this.velocity.x; // velocidad de andar
+    if (this.position.y + this.heigth + this.velocity.y <= 1020) {
+      // si la posicion del jugador sumada con el heigth y la velocidad  es menor a 1020 que es el tamaño del canvas
+      this.velocity.y += gravity; // me devuele la velocidad mas la gravedad
+    } else {
+      this.velocity.y = 0;
+    }
 
-![codigo](https://user-images.githubusercontent.com/96850176/169834918-59c2db6d-151a-48a3-a638-71b1a8b4bbda.jpeg)
-
+```
  calculando el salto y movimiento del jugador 
  
  # Manual de usuario
