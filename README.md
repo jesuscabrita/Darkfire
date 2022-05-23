@@ -59,6 +59,12 @@ paso 2  // inicar paquetes
 paso 3 // levantar servidor 
 `$ npm run dev` 
 
+# codigo ejemplo 
+
+![codigo](https://user-images.githubusercontent.com/96850176/169834918-59c2db6d-151a-48a3-a638-71b1a8b4bbda.jpeg)
+ calculando el salto y movimiento del jugador 
+
+
 # License
  
   [More](./LICENSE)
