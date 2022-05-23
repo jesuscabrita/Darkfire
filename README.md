@@ -71,7 +71,7 @@ paso 3 // levantar servidor
 
 # codigo ejemplo 
 ```
-this.position.y += this.velocity.y; // velocidad de salto sin caida
+<p style='color:red'>this</p>.position.y += this.velocity.y; // velocidad de salto sin caida
     this.position.x += this.velocity.x; // velocidad de andar
     if (this.position.y + this.heigth + this.velocity.y <= 1020) {
       // si la posicion del jugador sumada con el heigth y la velocidad  es menor a 1020 que es el tamaño del canvas
