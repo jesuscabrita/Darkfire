@@ -1,6 +1,6 @@
 # Darkfire :alien:
 
-# tecnologías utilizadas en el proyecto:
+# tecnologías utilizadas 
 
 * [Node](./src/assets/node.png): Version ^16.13.2 
 * [Vite](https://example.com): Version ^2.9.9
