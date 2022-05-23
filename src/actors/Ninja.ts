@@ -26,7 +26,6 @@ export class Ninja extends Actor {
   canvasH: number;
   image: HTMLImageElement;
   frames: number;
-  
 
   constructor(initialPos: Point) {
     super(initialPos);
@@ -58,18 +57,20 @@ export class Ninja extends Actor {
 
   // add delta to update
   update(delta: number) {
+    // frames
     this.frames++;
-    if (this.frames > 28){
+    if (this.frames > 28) {
       this.frames = 0;
-    } 
-    this.position.y += this.velocity.y;
-    this.position.x += this.velocity.x;
+    }
+    this.position.y += this.velocity.y; // velocidad de salto sin caida
+    this.position.x += this.velocity.x; // velocidad de andar
     if (this.position.y + this.heigth + this.velocity.y <= 1020) {
-      this.velocity.y += gravity;
+      // si la posicion del jugador sumada con el heigth y la velocidad  es menor a 1020 que es el tamaño del canvas
+      this.velocity.y += gravity; // me devuele la velocidad mas la gravedad
     } else {
       this.velocity.y = 0;
     }
-
+    //  velocidad de movimiento con el objeto keys
     if (keys.right.pressed && this.position.x) {
       this.velocity.x = 5;
     } else if (keys.letf.pressed && this.position.x) {
@@ -77,21 +78,20 @@ export class Ninja extends Actor {
     } else {
       this.velocity.x = 0;
     }
-
   }
   keyboard_event_down(key: string): void {
     switch (key) {
       case "ArrowRight":
         console.log("right");
-        keys.right.pressed = true;
+        keys.right.pressed = true; // keys tiene un booleano false , alpresionar reacciona a la condicion de la linea 75
         break;
       case "ArrowLeft":
         console.log("left");
-        keys.letf.pressed = true;
+        keys.letf.pressed = true; // keys tiene un booleano false , alpresionar reacciona a la condicion de la linea 77
         break;
       case "ArrowUp":
         console.log("up");
-        this.velocity.y -= 20;
+        this.velocity.y -= 20; // la velocidad esta en 0 pero reacciona a linea 69 menos  20 como valor
         break;
       case "ArrowDown":
         console.log("down");
@@ -104,10 +104,10 @@ export class Ninja extends Actor {
   keyboard_event_up(key: string) {
     switch (key) {
       case "ArrowRight":
-        keys.right.pressed = false;
+        keys.right.pressed = false; // reacciona a la linea 75 pero como su valor es false queda en 0 por defecto
         break;
       case "ArrowLeft":
-        keys.letf.pressed = false;
+        keys.letf.pressed = false; // reacciona a la linea 77 pero como su valor es false queda en 0 por defecto
         break;
 
       default:

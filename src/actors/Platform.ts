@@ -7,7 +7,7 @@ export class Platform extends Actor {
   height: number;
   width: number;
   images: HTMLImageElement;
-  frames:number;
+  frames: number;
 
   constructor(inicialPos: Point) {
     super(inicialPos);
@@ -23,16 +23,16 @@ export class Platform extends Actor {
   }
   update(delta: number) {
     this.frames++;
-    if (this.frames > 2){
+    if (this.frames > 2) {
       this.frames = 0;
-    } 
+    }
   }
 
   draw(delta: number, ctx: CanvasRenderingContext2D) {
     ctx.drawImage(
       this.images,
-      1*this.frames,
-      -35 ,
+      1 * this.frames,
+      -35,
       44,
       98,
       this.position.x,

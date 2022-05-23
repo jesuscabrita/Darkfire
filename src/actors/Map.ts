@@ -9,7 +9,7 @@ export class Map extends Actor {
   maxSpeed: number;
   speed: Point;
   image: HTMLImageElement;
-  frames:number;
+  frames: number;
 
   constructor(initialPos: Point, color = "yellow", maxSpeed = 300) {
     super(initialPos);
@@ -25,9 +25,9 @@ export class Map extends Actor {
 
   update(delta: number) {
     this.frames++;
-    if (this.frames > 85){
+    if (this.frames > 85) {
       this.frames = 0;
-    } 
+    }
   }
   draw(delta: number, ctx: CanvasRenderingContext2D) {
     let origin = this.origin;
@@ -35,8 +35,8 @@ export class Map extends Actor {
 
     ctx.drawImage(
       this.image,
-      38 ,
-      29 ,
+      38,
+      29,
       1380,
       661,
       0,
