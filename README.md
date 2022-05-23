@@ -88,7 +88,8 @@ paso 3 // levantar servidor
 
 # Agradecimientos
 
-lav
+En agradecimiento a [CODE Core School](https://github.com/core-school) por la darme la oportunidad de comenzar este camino del desarrollo web, en total gratitud a mi teacher [Luis Miguel Feijoo](https://github.com/luismiguelfeijoo) por su paciencia y su espectacular metodologia y a mis compañeros del bootcamp por mantener el enfoque dia a dia.
+
 
 # License
  
