@@ -44,7 +44,12 @@ El reto es desarrollar un proyecto interesante y dinamico, por ello decidí crea
 ├── .gitignore //
 
 ```
+# play here :video_game:
+
+# Tabla de contenidos :clipboard:
+
+
 
 # License
-
-https://img.shields.io/apm/l/npm?label=licence
+ 
+  [More](./LICENSE)
