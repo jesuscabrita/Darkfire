@@ -7,6 +7,6 @@
 * [typescript](https://www.typescriptlang.org/): Version ^4.6.4
 * [npm](https://www.npmjs.com/): Version ^8.8.0
 
-#Imagen Previa
+# Imagen Previa
 
 ![demo](https://user-images.githubusercontent.com/96850176/169742802-5183aa88-02d0-4952-a9d1-5a439df4a1f2.jpeg)
