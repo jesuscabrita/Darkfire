@@ -18,7 +18,32 @@ El reto es desarrollar un proyecto interesante y dinamico, por ello decidí crea
 
 # Estructura del proyecto
 
+```
+├── Readme.md                   
+├── src// Fuente
+│  ├── actors // actores principales del proyecto
+│  └─────── Actors.ts //
+│  └─────── FPSViewer.ts //
+│  └─────── Map.ts //
+│  └─────── Ninja.ts //
+│  └─────── Platform //
+│  ├── assets // contenido multimedia del proyecto
+│  ├── types //  tipos
+│  └─────── Point //
+│  ├── utils // funciones utiles
+│  └─────── AngleToRoad.ts // funcion de calculo de angulo
+│  └─────── checkLimits.ts // limites de canvas
+│  └─────── KeyboardMap.ts // keysCode
+└───────index.d.ts // 
+└─────── script.ts // Control de configuración
+├── public //
+├── index.html // 
+├── node_modules // 
+├── package.json //
+├── package-lock.json //
+├── .gitignore //
 
+```
 
 # License
 
