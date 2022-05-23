@@ -14,3 +14,7 @@
 # Motivación del proyecto
 
 El reto es desarrollar un proyecto interesante y dinamico, por ello decidí crear un juego al estilio Super Mario Bros, convimiento de salto , adelante atras y otras funcionalidades que puedan recrear una version distinta.
+
+# License
+
+https://img.shields.io/apm/l/npm?label=licence
