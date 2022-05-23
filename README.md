@@ -64,6 +64,14 @@ paso 3 // levantar servidor
 ![codigo](https://user-images.githubusercontent.com/96850176/169834918-59c2db6d-151a-48a3-a638-71b1a8b4bbda.jpeg)
 
  calculando el salto y movimiento del jugador 
+ 
+ # Manuela de usuario
+ 
+ | accion | tecla |
+| ------------- | ------------- |
+|isquierda  | :arrow_left:  |
+|derecha  | :arrow_right:  |
+| salto  | :arrow_up: |
 
 
 # License
