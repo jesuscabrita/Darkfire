@@ -65,7 +65,7 @@ paso 3 // levantar servidor
 
  calculando el salto y movimiento del jugador 
  
- # Manuela de usuario
+ # Manual de usuario
  
  | accion | tecla |
 | ------------- | ------------- |
